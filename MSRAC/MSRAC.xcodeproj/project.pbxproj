@@ -16,6 +16,7 @@
 		4E026D9F1E1B34AF00AF5835 /* ReactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E026D9E1E1B34AF00AF5835 /* ReactiveCocoa.m */; };
 		4E026DA11E1B395500AF5835 /* CocoaPods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E026DA01E1B395500AF5835 /* CocoaPods.m */; };
 		4E026DA41E1B784500AF5835 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E026DA31E1B784500AF5835 /* TestVC.m */; };
+		4E53C7D51E1BAB2E00FF89A3 /* RACVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E53C7D41E1BAB2E00FF89A3 /* RACVC.m */; };
 		A1B21F78621358ADFD455531 /* Pods_MSRAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505698AD8E66BBDA5D478DF /* Pods_MSRAC.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		4E026DA01E1B395500AF5835 /* CocoaPods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaPods.m; sourceTree = "<group>"; };
 		4E026DA21E1B784500AF5835 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		4E026DA31E1B784500AF5835 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		4E53C7D31E1BAB2E00FF89A3 /* RACVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACVC.h; sourceTree = "<group>"; };
+		4E53C7D41E1BAB2E00FF89A3 /* RACVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACVC.m; sourceTree = "<group>"; };
 		5505698AD8E66BBDA5D478DF /* Pods_MSRAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSRAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C508F1ECB2A2C295FB1DA4A /* Pods-MSRAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSRAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSRAC/Pods-MSRAC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +83,8 @@
 				4E026D8E1E1B347100AF5835 /* ViewController.m */,
 				4E026DA21E1B784500AF5835 /* TestVC.h */,
 				4E026DA31E1B784500AF5835 /* TestVC.m */,
+				4E53C7D31E1BAB2E00FF89A3 /* RACVC.h */,
+				4E53C7D41E1BAB2E00FF89A3 /* RACVC.m */,
 				4E026D901E1B347100AF5835 /* Main.storyboard */,
 				4E026D931E1B347100AF5835 /* Assets.xcassets */,
 				4E026D951E1B347100AF5835 /* LaunchScreen.storyboard */,
@@ -241,6 +246,7 @@
 				4E026DA41E1B784500AF5835 /* TestVC.m in Sources */,
 				4E026D8F1E1B347100AF5835 /* ViewController.m in Sources */,
 				4E026D8C1E1B347100AF5835 /* AppDelegate.m in Sources */,
+				4E53C7D51E1BAB2E00FF89A3 /* RACVC.m in Sources */,
 				4E026D9F1E1B34AF00AF5835 /* ReactiveCocoa.m in Sources */,
 				4E026DA11E1B395500AF5835 /* CocoaPods.m in Sources */,
 				4E026D891E1B347100AF5835 /* main.m in Sources */,

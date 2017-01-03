@@ -25,6 +25,7 @@
 #import "ViewController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import "TestVC.h"
+#import "RACVC.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) RACCommand *command;
@@ -170,14 +171,16 @@
 //- (void)RACSubjectReplaceProtocal
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    // 创建第二个控制器
+    /*// 创建第二个控制器
     TestVC *twoVc = [[TestVC alloc] init];
     // 设置代理信号
     twoVc.delegateSignal = [RACSubject subject];
     // 订阅代理信号
     [twoVc.delegateSignal subscribeNext:^(id x) {
         NSLog(@"点击了通知按钮");
-    }];
+    }];*/
+    
+    RACVC *twoVc = [[RACVC alloc] init];
     // 跳转到第二个控制器
     [self presentViewController:twoVc animated:YES completion:nil];
 }
