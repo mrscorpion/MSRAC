@@ -1,0 +1,5 @@
+platform:ios,'8.1'
+target 'MSRAC' do
+use_frameworks!
+pod 'ReactiveCocoa', '~> 2.5'
+end
